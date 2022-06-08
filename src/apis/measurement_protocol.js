@@ -82,8 +82,7 @@ class MeasurementProtocol {
       const requestOptions = {
         method: 'POST',
         url: `${BASE_URL}${path}`,
-        body: payload,
-        headers: {'User-Agent': }
+        body: payload
       };
       return request(requestOptions).then((response) => {
         if (response.status < 200 || response.status >= 300) {
