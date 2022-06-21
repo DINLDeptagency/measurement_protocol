@@ -12,7 +12,7 @@
     "url": "https://github.com/GoogleCloudPlatform/cloud-for-marketing/tree/master/marketing-analytics/activation/common-libs/nodejs-common"
   },
   "dependencies": {
-    "gaxios": "git+https://github.com/DINLDeptagency/gaxios.git",
+    "gaxios": "^3.0.4",
     "@google-cloud/bigquery": "^5.0.1",
     "@google-cloud/datastore": "^6.1.0",
     "@google-cloud/firestore": "^4.1.1",
